@@ -71,7 +71,7 @@ pip install gspread pandas sqlite3 apache-airflow
 ```
 
 ## Project Structure
-- **baskit_code/etl_born_date_cleaning.py**: Standalone Python script that performs the ETL process.
-- **baskit_coded/etl_born_date_cleaning_dag.py**: Airflow DAG script for scheduling and running the ETL tasks.
-- **service_account_creds**: Configuration details for accessing Google Sheets (Service Account JSON file).
+- **baskit/etl_born_date_cleaning.py**: Standalone Python script that performs the ETL process.
+- **baskit/etl_born_date_cleaning_dag.py**: Airflow DAG script for scheduling and running the ETL tasks.
+- **service_account_creds**(not included): Configuration details for accessing Google Sheets (Service Account JSON file).
 - **db**: SQLite3 Database.
