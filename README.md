@@ -9,10 +9,6 @@ This project demonstrates an ETL pipeline that extracts data from Google Sheets,
 - [Project Overview](#project-overview)
 - [Setup Instructions](#setup-instructions)
 - [Project Structure](#project-structure)
-- [Running the Project](#running-the-project)
-  - [Python Script Version](#python-script-version)
-  - [Airflow DAG Version](#airflow-dag-version)
-- [Screenshots](#screenshots)
 
 ---
 
