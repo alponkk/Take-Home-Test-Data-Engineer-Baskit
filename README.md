@@ -71,3 +71,38 @@ pip install gspread pandas sqlite3 apache-airflow
 - **baskit/etl_born_date_cleaning_dag.py**: Airflow DAG script for scheduling and running the ETL tasks.
 - **service_account_creds**(not included): Configuration details for accessing Google Sheets (Service Account JSON file).
 - **db**: SQLite3 Database.
+
+## Results
+baskit/etl_born_date_cleaning.py 
+```
+Output:
+--- EXTRACT START ---
+--- EXTRACT SUCCESS ---
+--- TRANSFORM START ---
+--- TRANSFORM SUCCESS ---
+--- LOAD SUCCESS ---
+--- LOAD SUCCESS ---
+        id    name   phone_number    born_day
+0  ab10212   Blair  6281883494035  1987-11-20
+1  ab10213    Kurt  6281615589027  1991-04-06
+2  ab10214   Brain  6281429780440  1992-04-13
+3  ab10215    Seth  6281716992765  1989-01-04
+4  ab10216   Madge  6281902482399  1990-08-11
+5  ab10217  Claire  6281525434419  2007-12-05
+6  ab10218    Jill  6281584489426  2008-02-16
+7  ab10219    Josh  6281674056264  1995-05-17
+8  ab10220   Merle  6281749431137  1995-12-12
+9  ab10221    Gale  6281660050569  1996-04-23
+```
+
+
+baskit/etl_born_date_cleaning_dag.py - Airflow UI:
+
+![image](https://github.com/user-attachments/assets/6c2d8740-ce50-4f4b-94a1-8659bf51d18e)
+
+
+
+born_date_data table - SQLite3 in DBeaver:
+
+![image](https://github.com/user-attachments/assets/6ce15f14-27bc-485b-ae1f-d7f79e8fa74e)
+
