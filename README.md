@@ -7,7 +7,7 @@ This project demonstrates an ETL pipeline that extracts data from Google Sheets,
 ## Table of Contents
 - [Data Understanding](#data-understanding)
 - [Project Overview](#project-overview)
-- [Setup Instructions](#setup-instructions)
+- [Prerequisites](#prerequisites)
 - [Project Structure](#project-structure)
 
 ---
